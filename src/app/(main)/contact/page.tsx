@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faMap, faPhone, faVoicemail } from "@fortawesome/free-solid-svg-icons";
-import Free from "../components/free";
+import Free from "../../components/free";
 
 export default function Contact() {
   return (
@@ -134,7 +134,6 @@ export default function Contact() {
       </main>
 
       {/* Free Component */}
-      <Free />
-    </>
+<Free/>    </>
   );
 }

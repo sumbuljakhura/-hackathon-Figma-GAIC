@@ -4,11 +4,13 @@ import { Top } from "./components/top";
 import { AsgaardSofa } from "./components/Asgaardsofa";
 import { Blog } from "./components/blog";
 import { Instagram } from "./components/instagram";
+import { Navbar } from "./components/navbar";
 
 export default function Home() {
   return (
     
     <main>
+      <Navbar/>
 <HeroSection/>
 <Tables/> 
 <Top/>
