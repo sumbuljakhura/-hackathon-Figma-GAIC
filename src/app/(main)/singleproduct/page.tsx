@@ -39,7 +39,7 @@ export default function SingleProducts() {
   return (
     <>
       {/* Navigation Bar */}
-      <nav className="bg-[#F9F1E7] h-24 mt-20 flex items-center gap-8 px-8 md:px-20 mt-0">
+      <nav className="bg-[#F9F1E7] h-24 mt-21 flex items-center gap-8 px-8 md:px-20 mt-0">
         <ul className="flex items-center gap-2 list-none">
           <li  className="text-[#9F9F9F]">Home</li>
           <Image src="/img/black-arr.png" alt="arrow" width={20} height={20} />
@@ -82,7 +82,7 @@ export default function SingleProducts() {
             {["L", "XL", "XS"].map((size) => (
               <button
                 key={size}
-                className="w-8 h-8 bg-[#FBEBB5] text-sm rounded flex items-center justify-center hover:bg-[#FBEBB5]  "
+                className="w-8 h-8 bg-[#FBEBB5] text-sm rounded flex items-center justify-center hover:bg-[#FBEBB5]"
               >
                 {size}
               </button>

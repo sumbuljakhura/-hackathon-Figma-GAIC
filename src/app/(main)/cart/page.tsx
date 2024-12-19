@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import Free from '../components/free'
+import Free from '../../components/free'
 
 const CartPage = () => {
     return (
