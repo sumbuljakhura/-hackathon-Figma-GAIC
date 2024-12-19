@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Free from '../components/free'
+import Free from '../../components/free'
 export default function Check(){
     return (
         <>
