@@ -5,6 +5,7 @@ import { AsgaardSofa } from "./components/Asgaardsofa";
 import { Blog } from "./components/blog";
 import { Instagram } from "./components/instagram";
 import { Navbar } from "./components/navbar";
+import { Footer } from "./components/footer";
 
 export default function Home() {
   return (
@@ -17,5 +18,6 @@ export default function Home() {
 <AsgaardSofa/>
 <Blog/>
 <Instagram/>
+<Footer/>
 </main>  );
 }
